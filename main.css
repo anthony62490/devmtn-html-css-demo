@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang');
+
+body {
+    font-family: 'Kirang Haerang', cursive;
+}
+
+.logo {
+    width: 60px;
+    height: 100%;
+    float: left;
+    background: url(https://www.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2011/03/08/72014-actor-gary-busey-arrives-at-the-80th-annual-academy-awards-in-hollywoo.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #BADA55;
+    padding: 10px;
+}
+
+.nav-item {
+    float: left;
+    color: #880088;
+    font-size: 18px;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    background-color: #880088;
+    color: #BADA55;
+}
+
+h3, h1 {
+    color: #cd853f;
+}
+
+#sub-title {
+    color: #880088;
+    text-align: center;
+    font-size: 30px;
+}
+
+#title {
+    margin-top: 100px;
+    color: #000000;
+    text-align: center;
+    font-size: 56px;
+}
+
+.center-box {
+    margin: auto;
+    margin-top: 8px;
+    width: 50%;
+    border: 3px solid #000000;
+    padding: 30px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5%;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+td, th {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #c9b19a;
+    border-style: outset;
+}
